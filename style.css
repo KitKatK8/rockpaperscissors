@@ -1,7 +1,7 @@
 
 
 * {
-    background-color: darkblue;
+    background-color: #292c34;
     color: antiquewhite;
     text-align: center;    
     box-sizing: border-box;
@@ -17,7 +17,7 @@ header {
 
 header > h1{
     background-color: antiquewhite;
-    color: darkblue;
+    color: #292c34;
     font-size: 50px;
 }
 
