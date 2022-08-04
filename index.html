@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>rock paper scissors</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p id="result-text">Paper covers rock. You win!</p>
+    </div>
+    
+    <div class="choices">
+        <div class="choice" id="r">
+            <img class="rockImg" src="images/rock.png" alt="rock">
+        </div>
+        <div class="choice" id="p">
+            <img src="images/paper.png" alt="paper" class="imgsRPS">
+        </div>
+        <div class="choice" id="s">
+            <img src="images/scissors.png" alt="scissors">
+        </div>
+    </div>
+<p id="action-message">Make your move</p>
+<script src="functions.js" charset="utf-8"></script>
+    </body>
+</html>
